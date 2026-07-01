@@ -1,0 +1,104 @@
+canonical_identifier: bkk:krp/KR6j0041/v1
+canonical_location: https://kanripo.org/bkk/KR6j0041/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 金剛頂一切如來真實攝大乘現證大教王經
+  identifiers:
+    alt_id:
+    - T18n0874
+  source:
+    repository: cbeta
+    path: /home/chris/src/xml-p5/T/T18/T18n0874.xml
+    old_id: T18n0874
+  edition:
+    short: bkk
+editions:
+- short: 大
+  label: 大
+  source_xml_id: wit.orig
+- short: 甲
+  label: 甲
+  source_xml_id: wit1
+- short: 乙
+  label: 乙
+  source_xml_id: wit2
+- short: T
+assets:
+  parts:
+  - {seq: 0, filename: KR6j0041_000.yaml, hash: 'sha256:3d71bd71136b86fd109f196825c158a001e208fd7c7e1a090992b9c3405df3b4'}
+  - {seq: 1, filename: KR6j0041_001.yaml, hash: 'sha256:0e3ed8100ffbe8bad05cd07332f1097e2bbce5b36a14819d2a316b3f32a6e19e'}
+  - {seq: 2, filename: KR6j0041_002.yaml, hash: 'sha256:6e14c8592600cc26bb0442385f8b35d3a17714af669ea5338fffbe2a2877c11e'}
+  markers:
+  - {seq: 1, role: markers, filename: assets/KR6j0041_001.markers.yaml, hash: 'sha256:508de92946a218aee8edfaa670374878ce500a16d861af94987fc8b699ea3f7c'}
+  - {seq: 2, role: markers, filename: assets/KR6j0041_002.markers.yaml, hash: 'sha256:6b49016b961f4373a280ba0cf27d1eba1a263bdcd3728e3f8b329ef591750b0e'}
+table_of_contents:
+- ref:
+    seq: 1
+    marker_id: KR6j0041_T_001-juan-start
+    span:
+    - body
+    - 0
+    - 6720
+  label: '金剛頂一切如來真實攝大乘
+
+    現證大教王經卷上'
+  type: juan
+  level: 1
+- ref:
+    seq: 1
+    marker_id: KR6j0041_T_001-mulu-1
+    span:
+    - body
+    - 16
+    - 16
+  label: 1 深妙祕密金剛界大三昧耶修習瑜伽儀
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0041_T_002-juan-start
+    span:
+    - body
+    - 0
+    - 5291
+  label: '金剛頂一切如來真實攝大乘現
+
+    證大教王經卷下'
+  type: juan
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0041_T_002-mulu-1
+    span:
+    - body
+    - 16
+    - 16
+  label: 2 真言羯磨部
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0041_T_002-mulu-2
+    span:
+    - body
+    - 1273
+    - 1273
+  label: 3 真言三昧耶部
+  type: mulu
+  level: 1
+- ref:
+    seq: 2
+    marker_id: KR6j0041_T_002-mulu-3
+    span:
+    - body
+    - 1910
+    - 1910
+  label: 4 真言供養部
+  type: mulu
+  level: 1
+hash: sha256:811606e3d7310a724d01cf1b998a2b5b3927c7ae8e7212f6fd891ab31788ebb8
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
